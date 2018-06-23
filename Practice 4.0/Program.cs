@@ -41,7 +41,7 @@ namespace Practice_4._0
                 current = Func(i);
                 sum += current;
                 i++;
-            } while (Math.Abs(current - previous) > 0);
+            } while (Math.Abs(current - previous) > eps);
             Console.WriteLine("Sum equals {0}", sum);
             Console.ReadKey();
         }
